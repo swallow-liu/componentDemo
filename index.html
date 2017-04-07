@@ -2,8 +2,16 @@
 <html>
 <head>
 	<title>组件的编写</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="Component.js"></script>
 </head>
 <body>
-
+<input type="text"><button id="btn">点击弹出</button>
+<script type="text/javascript">
+	var btn = document.getElementById("btn");
+	btn.onclick=function(){
+		allArea();
+	}
+</script>
 </body>
 </html>
